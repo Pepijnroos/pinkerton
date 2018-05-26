@@ -104,7 +104,7 @@ function draw(){
   textSize(15);
   text("Ship",100,715);
   text("Slave port",100,780);
-  text("Alleged Maroon loc.,100,880);
+  text("Alleged Maroon loc.",100,880);
   textSize(10);
   text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",906,876);
   text("Map: David Rumsey Map Collection, John Pinkerton, The Caracas, 1810.", 906,896);
