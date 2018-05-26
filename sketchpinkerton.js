@@ -84,7 +84,7 @@ function draw(){
   
   fill(255,255,255);
   rect(400,0,690,50);
-  rect(0,650,200,266);
+  rect(0,650,250,266);
   rect(876,856,400,60);
   fill(255,30,255);
   ellipse(774,416,20,20);
@@ -98,7 +98,7 @@ function draw(){
   text("Demerara",280,350);
   fill(0,0,0);
   text("Individual slave transports to Berbice, Demerara and Surinam, 1794-1825",420,35);
-  text("Legend",60,675);
+  text("Legend",80,675);
   image(legendshp,20,695);
   image(circle,15,840);
   textSize(15);
