@@ -20,7 +20,7 @@ let data;
 function preload(){
   shp = loadImage("ship.png");
   legendshp = loadImage("legendship.png");
-  stars = loadImage("geopinkerton1810.jpg")
+  stars = loadImage("geopinkerton1810.jpg");
   circle = loadImage("circle.png");
 
   // Load data from a TSV file
@@ -79,6 +79,22 @@ function draw(){
   textSize(30);
   fill(255,255,0);
   text(time,140,50);
+  
+  fill(255,255,255);
+  rect(400,0,876,50);
+  rect(0,650,200,266);
+  rect(516,856,400,60);
+  fill(255,30,255);
+  ellipse(774,416,20,20);
+  ellipse(398,370,20,20);
+  ellipse(304,314,20,20);
+  ellipse(40,775,20,20);
+  fill(0,0,255);
+  textSize(20);
+  text("Surinam",750,440);
+  text("Berbice",350,410);
+  text("Demerara",280,350);
+  
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
