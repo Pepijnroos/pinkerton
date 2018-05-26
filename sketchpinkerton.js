@@ -85,7 +85,7 @@ function draw(){
   fill(255,255,255);
   rect(400,0,690,50);
   rect(0,650,200,266);
-  rect(516,856,400,60);
+  rect(876,856,400,60);
   fill(255,30,255);
   ellipse(774,416,20,20);
   ellipse(398,370,20,20);
@@ -101,6 +101,13 @@ function draw(){
   text("Legend",60,675);
   image(legendshp,20,685);
   image(circle,15,850);
+  textSize(15);
+  text("Ship",100,715);
+  text("Slave port",100,780);
+  text("Alleged Maroon loc.,100,880);
+  textSize(10);
+  text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",906,876);
+  text("Map: David Rumsey Map Collection, John Pinkerton, The Caracas, 1810.", 906,896);
   
   
   // Update each ship
