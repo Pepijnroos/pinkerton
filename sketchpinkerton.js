@@ -99,12 +99,13 @@ function draw(){
   fill(0,0,0);
   text("Individual slave transports to Berbice, Demerara and Surinam, 1794-1825",420,35);
   text("Legend",60,675);
-  image(legendshp,20,685);
-  image(circle,15,850);
+  image(legendshp,20,695);
+  image(circle,15,840);
   textSize(15);
-  text("Ship",100,715);
-  text("Slave port",100,780);
-  text("Alleged Maroon loc.",100,880);
+  text("Ship",100,725);
+  text("Slave port",100,800);
+  text("Alleged Maroon",100,870);
+  text("Locations",100,885);
   textSize(10);
   text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",906,876);
   text("Map: David Rumsey Map Collection, John Pinkerton, The Caracas, 1810.", 906,896);
