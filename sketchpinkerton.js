@@ -19,6 +19,7 @@ let data;
 
 function preload(){
   shp = loadImage("ship.png");
+  legendshp = loadImage("legendship.png");
   stars = loadImage("geopinkerton1810.jpg")
 
   // Load data from a TSV file
@@ -62,7 +63,7 @@ function setup(){
   // Set values for data, and display the background image
   image(stars, 0, 0);
   time = 1794;
-  startingframes = time * 60;
+  startingframes = time * 180;
   speedoftime = 1;
   goal = 0;
   frameadjust = -20;
@@ -100,7 +101,7 @@ function draw(){
 // Move time function. This sets the interval for the time variable to move forward:
 // By default, this is set per 60 frames (so time = 1 is one second)
 function timeflow(time, timespeed){
-  if (frameCount % (timespeed * 60) == 0){
+  if (frameCount % (timespeed * 180) == 0){
     return time += 1;
   } else {
     return time
@@ -153,7 +154,7 @@ class Ship {
     }
 
     // Calculate information (arrival frame, goal, direction, and distance)
-    let arrivalframe = (arrival * 60 * speedoftime) + this.frameadjust;
+    let arrivalframe = (arrival * 180 * speedoftime) + this.frameadjust;
     let destination = createVector(x, y);
     let dir = p5.Vector.sub(destination, this.pos);
     let distance = dir.mag();
