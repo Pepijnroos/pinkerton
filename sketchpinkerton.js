@@ -90,7 +90,7 @@ function draw(){
   ellipse(774,416,20,20);
   ellipse(398,370,20,20);
   ellipse(304,314,20,20);
-  ellipse(40,795,20,20);
+  ellipse(50,795,20,20);
   fill(0,0,255);
   textSize(20);
   text("Surinam",740,460);
@@ -99,7 +99,7 @@ function draw(){
   fill(0,0,0);
   text("Individual slave transports to Berbice, Demerara and Surinam, 1794-1825",420,35);
   text("Legend",60,675);
-  image(legendshp,10,685);
+  image(legendshp,20,685);
   image(circle,10,850);
   
   
