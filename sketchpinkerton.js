@@ -77,8 +77,8 @@ function draw(){
   image(stars, 0, 0);
   
   textSize(30);
-  fill(255,255,0);
-  text(time,140,50);
+  fill(0,0,255);
+  text(time,170,40);
   
   fill(255,255,255);
   rect(400,0,876,50);
