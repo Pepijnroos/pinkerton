@@ -21,6 +21,7 @@ function preload(){
   shp = loadImage("ship.png");
   legendshp = loadImage("legendship.png");
   stars = loadImage("geopinkerton1810.jpg")
+  circle = loadImage("circle.png");
 
   // Load data from a TSV file
   data = loadTable("datapinkerton.tsv","tsv","header")
