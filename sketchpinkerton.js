@@ -91,7 +91,7 @@ function draw(){
   ellipse(40,775,20,20);
   fill(0,0,255);
   textSize(20);
-  text("Surinam",750,440);
+  text("Surinam",740,460);
   text("Berbice",350,410);
   text("Demerara",280,350);
   
