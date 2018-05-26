@@ -100,7 +100,7 @@ function draw(){
   text("Individual slave transports to Berbice, Demerara and Surinam, 1794-1825",420,35);
   text("Legend",60,675);
   image(legendshp,20,685);
-  image(circle,10,850);
+  image(circle,15,850);
   
   
   // Update each ship
