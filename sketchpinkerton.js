@@ -88,7 +88,7 @@ function draw(){
   ellipse(774,416,20,20);
   ellipse(398,370,20,20);
   ellipse(304,314,20,20);
-  ellipse(40,775,20,20);
+  ellipse(40,795,20,20);
   fill(0,0,255);
   textSize(20);
   text("Surinam",740,460);
